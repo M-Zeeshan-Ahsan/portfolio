@@ -81,7 +81,7 @@
   color: #b3bad3;
 }
 .portfolio-tags {
-  display: flex;
+  display: none;
   gap: 0.5rem;
   flex-wrap: wrap;
 }

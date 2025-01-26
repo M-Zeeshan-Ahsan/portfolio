@@ -42,7 +42,7 @@ const Banner = () => {
           <div className="banner-container-left">
             <p>WELCOME TO MY CREATIVE JOURNEY!</p>
             <h1>
-              Hi, I’m Daniel Newbold <span class="wave">👋</span>
+              Hi, I’m Zeeshan Ahsan <span class="wave">👋</span>
             </h1>
             <h2>
               A{" "}
@@ -60,7 +60,7 @@ const Banner = () => {
               </NavLink>
             </div>
           </div>
-          <div className="banner-container-right ">
+          <div className="banner-container-right d-none">
             <img src={ProfilImage} alt="" />
           </div>
         </div>

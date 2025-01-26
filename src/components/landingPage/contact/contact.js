@@ -39,7 +39,7 @@ const Contact = () => {
                   <img src={MailIcon} alt="icon" />
                 </div>
                 <h1>EMAIL</h1>
-                <p>newboldd537@gmail.com</p>
+                <p>ahsansahi6@gmail.com</p>
               </div>
             </div>
 
@@ -49,7 +49,7 @@ const Contact = () => {
                   <img src={HomeIcon} alt="icon" />
                 </div>
                 <h1>LOCATION</h1>
-                <p>4056 Windsor Ln, Milton, FL 32571</p>
+                <p>Walton Lahore</p>
               </div>
             </div>
           </div>
@@ -58,17 +58,17 @@ const Contact = () => {
         <div className="contact-footer">
           <div className="social-wrappper">
             <a
-              href="https://www.linkedin.com/in/dale-newbold/ "
+              href="https://www.linkedin.com/in/muhammad-zeeshan-ahsan-5870531b4"
               target="_blank"
             >
               <img src={LinkdinIcon} alt="icon" />
             </a>
-            <a href=" https://github.com/Dale09231" target="_blank">
+            <a href=" https://github.com/M-Zeeshan-Ahsan" target="_blank">
               <img src={GitgubIcon} alt="icon" />
             </a>
 
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=dalenewbold2@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=ahsansahi6@gmail.com"
               target="_blank"
             >
               <img src={GmailIcon} alt="icon" />
@@ -76,7 +76,7 @@ const Contact = () => {
           </div>
           <div className="copyright">
             <p>
-              © 2024 All Rights Reserve to <NavLink>Daniel Newbold</NavLink>
+              © 2024 All Rights Reserve to <NavLink>Zeeshan Ahsan</NavLink>
             </p>
           </div>
         </div>

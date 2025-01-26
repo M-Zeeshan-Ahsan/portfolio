@@ -17,9 +17,9 @@ const About = () => {
         <div className="common-heading">
           <h1>About Me</h1>
           <p>
-            Become a world's no 1 full-stack web developer. That's why I am
-            learning and mastering web development. I will not stop until I
-            become the Web Development Hero.
+            On a mission to be the world's No. 1 full-stack developer, I’m
+            mastering React.js and front-end development to become the ultimate
+            Web Development Hero!
           </p>
         </div>
         <div
@@ -27,7 +27,7 @@ const About = () => {
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          <div className="about-container-left">
+          <div className="about-container-left d-none">
             <img src={ProfileImage} alt="img" />
           </div>
           <div className="about-container-right">
@@ -35,40 +35,39 @@ const About = () => {
               Hi There<span>✌</span>
             </h1>
             <p>
-              I am a senior full-stack developer with more than 10 years of
-              extensive experience in web application development using multiple
-              languages and frameworks. I am proficient in all stages of
-              application development including requirement analysis, designing,
-              coding, testing, and debugging.
+              I am a senior front-end developer with over 3 years of extensive
+              experience in building high-performance web applications using
+              modern technologies. My expertise lies in creating dynamic and
+              responsive user interfaces, ensuring seamless user experiences,
+              and delivering scalable, maintainable solutions.
             </p>
             <p>
-              As a Senior Fullstack Developer, I am highly proficient in both
-              front-end and back-end technologies, and I have worked on various
-              projects, ranging from small-scale applications to complex
-              enterprise solutions.
+              As a Front-End Developer specializing in React.js, I excel in
+              leveraging tools like Redux Toolkit, TypeScript, Vite, SCSS. My
+              projects range from small-scale web apps to complex
+              enterprise-level solutions, showcasing my adaptability and
+              attention to detail.
             </p>
             <p>
               Technical Specifications:
               <br />
-              JavaScript, Typescript, PHP, Python, Golang, Ruby, C/C++, Java
+              <strong>Front-End Technologies:</strong> React.js, Next.js, Redux
+              Toolkit, TypeScript, Vite, SCSS
               <br />
-              React/Next, Angular, Vue/Nuxt, Gatsby, Tailwind CSS, GraphQL, D3,
-              ThreeJS
+              <strong>UI/UX Development:</strong> Focused on creating intuitive
+              and visually appealing user interfaces with robust accessibility
+              and performance.
               <br />
-              Node/Express, Python/Django, PHP/Laravel/Symfony, Golang, Ruby on
-              Rails
-              <br />
-              Wordpress, Webflow, Wix, Joomla, Drupal, Squarespace, Shopify
-              <br />
-              Swift/SwiftUI, Java/Kotlin, React Native/Flutter/Ionic/Xamarin
-              <br />
-              Stripe, Paypal, Google, Firebase
+              <strong>State Management:</strong> Advanced knowledge of Redux
+              Toolkit, Context API, and React Query for efficient state
+              handling.
             </p>
 
             <p>
-              My strong technical skills and business experience give me the
-              ability to communicate with and create alignment between
-              developers, product owners, stakeholders, and executives.
+              I pride myself on bridging the gap between technical and business
+              needs by collaborating effectively with developers, designers,
+              stakeholders, and product managers to ensure alignment and project
+              success.
             </p>
             <p>
               Please contact me at any time when it is convenient for you to

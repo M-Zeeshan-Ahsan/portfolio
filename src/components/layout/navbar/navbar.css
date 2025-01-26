@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 .navbar-section {
   background: #1f2235;
   height: 80px;
@@ -19,6 +20,14 @@
 }
 .navbar-logo-wrapper img {
   width: 100%;
+}
+.navbar-logo-wrapper h1 {
+  color: white;
+  font-size: 26px;
+  text-align: center;
+  margin: 0;
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
 }
 .navbar-link-wrapper {
   width: 100%;

@@ -54,45 +54,45 @@ const expertiseContent = [
       { name: "Sass", icon: SassIcon, description: "Sass" },
     ],
   },
-  {
-    title: "Comfortable",
-    skills: [
-      { name: "Node.js", icon: NodeIcon, description: "Node.js" },
-      { name: "Express.js", icon: ExpressIcon, description: "Express.js" },
-      { name: "MongoDB", icon: MongoIcon, description: "MongoDB" },
-      { name: "Mongoose", icon: MoongoseIcon, description: "Mongoose" },
-      { name: "RTK Query", icon: RTKIcon, description: "RTK Query" },
-      { name: "Material UI", icon: MaterialIcon, description: "Material UI" },
-      {
-        name: "Styled Component",
-        icon: StyledIcon,
-        description: "Styled Component",
-      },
-      { name: "Wordpress", icon: WordpressIcon, description: "Wordpress" },
-      { name: "MySQL", icon: MysqlIcon, description: "MySQL" },
-    ],
-  },
-  {
-    title: "Familiar",
-    skills: [
-      {
-        name: "React Native",
-        icon: ReactNativeIcon,
-        description: "React Native",
-      },
-      { name: "GraphQL", icon: GraphQLIcon, description: "GraphQL" },
-      { name: "Jest", icon: JestIcon, description: "Jest" },
-      { name: "Socket.IO", icon: SocketIcon, description: "Socket.IO" },
-      { name: "Python", icon: PythonIcon, description: "Python" },
-      {
-        name: "C Programming",
-        icon: CprogrammingIcon,
-        description: "C Programming",
-      },
-      { name: "Firebase", icon: FirebaseIcon, description: "Firebase" },
-      { name: "Heroku", icon: HerokuIcon, description: "Heroku" },
-    ],
-  },
+  // {
+  //   title: "Comfortable",
+  //   skills: [
+  //     { name: "Node.js", icon: NodeIcon, description: "Node.js" },
+  //     { name: "Express.js", icon: ExpressIcon, description: "Express.js" },
+  //     { name: "MongoDB", icon: MongoIcon, description: "MongoDB" },
+  //     { name: "Mongoose", icon: MoongoseIcon, description: "Mongoose" },
+  //     { name: "RTK Query", icon: RTKIcon, description: "RTK Query" },
+  //     { name: "Material UI", icon: MaterialIcon, description: "Material UI" },
+  //     {
+  //       name: "Styled Component",
+  //       icon: StyledIcon,
+  //       description: "Styled Component",
+  //     },
+  //     { name: "Wordpress", icon: WordpressIcon, description: "Wordpress" },
+  //     { name: "MySQL", icon: MysqlIcon, description: "MySQL" },
+  //   ],
+  // },
+  // {
+  //   title: "Familiar",
+  //   skills: [
+  //     {
+  //       name: "React Native",
+  //       icon: ReactNativeIcon,
+  //       description: "React Native",
+  //     },
+  //     { name: "GraphQL", icon: GraphQLIcon, description: "GraphQL" },
+  //     { name: "Jest", icon: JestIcon, description: "Jest" },
+  //     { name: "Socket.IO", icon: SocketIcon, description: "Socket.IO" },
+  //     { name: "Python", icon: PythonIcon, description: "Python" },
+  //     {
+  //       name: "C Programming",
+  //       icon: CprogrammingIcon,
+  //       description: "C Programming",
+  //     },
+  //     { name: "Firebase", icon: FirebaseIcon, description: "Firebase" },
+  //     { name: "Heroku", icon: HerokuIcon, description: "Heroku" },
+  //   ],
+  // },
   {
     title: "tools",
     skills: [
@@ -107,7 +107,7 @@ const expertiseContent = [
       },
       { name: "NPM", icon: NpmIcon, description: "NPM" },
       { name: "Yarn", icon: YarnIcon, description: "Yarn" },
-      { name: "Webpack", icon: WebpackIcon, description: "Webpack" },
+      // { name: "Webpack", icon: WebpackIcon, description: "Webpack" },
       {
         name: "Figma",
         icon: FigmaIcon,

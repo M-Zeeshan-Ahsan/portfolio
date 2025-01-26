@@ -23,69 +23,71 @@ const Experience = () => {
           <div className="experince-card">
             <div className="experience-container-left">
               <div className="experience-year">
+                <h1>Apr 2023 - Present</h1>
+                <div className="experience-colon"></div>
+              </div>
+            </div>
+            <div className="experience-container-right">
+              <h1>Senior Front-End Developer | Reactjs</h1>
+              <p>Kodex Technologies</p>
+              <ul>
+                <li>
+                  Led the development of responsive, user-friendly web
+                  applications using React.js, TypeScript, Material UI, and
+                  Next.js.
+                </li>
+                <li>
+                  Implemented Redux Toolkit for efficient state management,
+                  resulting in highly maintainable and scalable applications.
+                </li>
+                <li>
+                  Delivered 30 web projects across industries such as
+                  healthcare, retail, e-commerce, real estate, and social media,
+                  with a focus on performance optimization.
+                </li>
+                <li>
+                  Integrated third-party APIs and implemented features like
+                  offline support, push notifications, and PWA capabilities.
+                </li>
+                <li>
+                  Mentored a team of 20 front-end developers and designers,
+                  ensuring high-quality deliverables and adherence to project
+                  timelines.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="experince-card">
+            <div className="experience-container-left">
+              <div className="experience-year">
                 <h1>JUL 2019 - OCT 2022</h1>
                 <div className="experience-colon"></div>
               </div>
             </div>
             <div className="experience-container-right">
-              <h1>Senior Lead FullStack Engineer - Frontend and Backend</h1>
-              <p>Whitepages</p>
+              <h1>Front-End Developer</h1>
+              <p>IT HUTS</p>
               <ul>
                 <li>
-                  Worked on a development team to create new, awesome features
-                  for millions of users.
+                  Developed and maintained web app interfaces using React.js,
+                  TypeScript, HTML, CSS, and SCSS.
                 </li>
                 <li>
-                  Lead the developers of development team to extend the
-                  functionality and performance of applications. Provided third
-                  level assistance and support on developed applications.
+                  Collaborated with designers and back-end developers for
+                  seamless integration and optimized front-end performance.
                 </li>
                 <li>
-                  Provided ongoing feedback to upper management on the current
-                  status of projects.
+                  Utilized Bootstrap, React Bootstrap, and Material UI for
+                  building responsive, visually appealing UIs.
                 </li>
                 <li>
-                  Provided architectural leadership by leading design,
-                  implementation, code reviews and drive teams to the highest
-                  standards.
-                </li>
-                <li>Developed UI, management layer and Services, and APIs</li>
-              </ul>
-            </div>
-          </div>
-          <div className="experince-card">
-            <div className="experience-container-left">
-              <div className="experience-year">
-                <h1>APR 2015 - APR 2018</h1>
-                <div className="experience-colon"></div>
-              </div>
-            </div>
-            <div className="experience-container-right">
-              <h1>
-                Senior FullStack Engineer - React/Angular/Vue, PHP/Laravel,
-                Python, AWS
-              </h1>
-              <p>Contix</p>
-              <ul>
-                <li>
-                  Build and maintain REST APIs used by our internal tools to
-                  gain access to the data
+                  Implemented build automation, testing, and CI/CD practices to
+                  ensure scalability and high performance.
                 </li>
                 <li>
-                  Assist project/program/product managers, providing technical
-                  information to do project scoping and scheduling
-                </li>
-                <li>
-                  Work with the operations team to improve monitoring on all
-                  backend systems and APIs
-                </li>
-                <li>
-                  Continuously design, develop and deploy backend services with
-                  focus on high availability, low latency and scalability
-                </li>
-                <li>
-                  Collaborate with developers across product and services teams
-                  to integrate with backend APIs
+                  {" "}
+                  Worked with CSS background, layouts, positioning, text,
+                  border, margin, padding, Pseudo elements and behaviors
                 </li>
               </ul>
             </div>
@@ -93,32 +95,29 @@ const Experience = () => {
           <div className="experince-card">
             <div className="experience-container-left">
               <div className="experience-year">
-                <h1>MAY 2011 - JUN 2014</h1>
+                <h1>Apr 2021 - Aug 2021</h1>
                 <div className="experience-colon"></div>
               </div>
             </div>
             <div className="experience-container-right">
-              <h1>Senior Frontend Developer</h1>
-              <p>OpenArc</p>
+              <h1>Frontend Developer</h1>
+              <p>Kings Digital Solution</p>
               <ul>
                 <li>
-                  Build applications using a variety of languages to include
+                  Developed modern, responsive UIs using HTML, CSS, JavaScript,
+                  and Bootstrap.
                 </li>
                 <li>
-                  Familiarity with common patterns in building distributed
-                  systems, such as service registration and discovery, routing,
-                  load balancing and circuit breakers
+                  Worked closely with back-end developers and designers to
+                  integrate APIs and optimize UI/UX.
                 </li>
                 <li>
-                  Supports Sales team with product modifications and engineering
+                  Participated in agile sprints, contributing to high-quality
+                  deliverables in a fast-paced environment.
                 </li>
                 <li>
-                  Think through complex problems and work with a team to
-                  implement real-world solutions
-                </li>
-                <li>
-                  Build web applications that work equally well on desktop and
-                  mobile devices
+                  Conducted code reviews and ensured adherence to front-end best
+                  practices.
                 </li>
               </ul>
             </div>

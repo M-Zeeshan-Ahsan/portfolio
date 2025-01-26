@@ -1,15 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 .banner-section {
-  background-image: url(../../../assets/images/Banner-01.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  /* margin-top: 80px; */
+  background: #1f2235 !important;
+  height: 100%;
+  position: relative;
+  min-height: 100vh;
+}
+.banner-section::before {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-30deg);
+  content: "Zeeshan Ahsan";
+  color: rgba(255, 255, 255, 0.02);
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
 }
 .banner-container {
   display: flex;
   padding: 2rem 0;
   align-items: center;
-  min-height: 500px;
+  min-height: 100vh;
 }
 .banner-container-left {
   flex: 1;
