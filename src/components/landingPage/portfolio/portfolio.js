@@ -20,8 +20,8 @@ const Portfolio = () => {
         <div className="portfolio-container-content">
           <div className="tab-content-wrapper">
             <div className="row">
-              {portfolioData.map((item) => (
-                <div className="col-md-4 mt-4" key={item.id}>
+              {portfolioData.map((item, index) => (
+                <div className="col-md-4 mt-4" key={index}>
                   <div className="portfolio-card">
                     <div className="portfolio-content">
                       <div className="portfolio-img-wrapper">

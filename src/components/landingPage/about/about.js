@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./about.css";
-import ProfileImage from "../../../assets/images/profile-img-two.png";
 
 const About = () => {
   useEffect(() => {
@@ -28,7 +27,7 @@ const About = () => {
           data-aos-delay="200"
         >
           <div className="about-container-left d-none">
-            <img src={ProfileImage} alt="img" />
+            <img src="" alt="img" />
           </div>
           <div className="about-container-right">
             <h1>

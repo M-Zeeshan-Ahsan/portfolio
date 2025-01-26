@@ -3,9 +3,25 @@ const PortfolioThree = require("../../../assets/images/portfolio-3.png");
 const PortfolioFour = require("../../../assets/images/portfolio-4.png");
 const PortfolioTen = require("../../../assets/images/project10.png");
 const PortfolioEleven = require("../../../assets/images/project11.png");
+const SunChoiceProject = require("../../../assets/images/sunchoice-project.png");
 const portfolioData = [
   {
-    id: 1,
+    title: "Sunchoice",
+    image: SunChoiceProject,
+    description:
+      "SunChoice is a web platform simplifying solar system installations, offering quotes, provider connections, and a user-friendly interface.",
+    tags: [
+      "React",
+      "Context API",
+      "Tailwind",
+      "Firebase",
+      "NodeJS",
+      "SSLCOMMERZ",
+    ],
+    type: ["Full Stack", "Front End", "Others"],
+    websiteLink: "https://sunchoice.us/",
+  },
+  {
     title: "Lineicons",
     image: PortfolioOne,
     description:
@@ -23,7 +39,6 @@ const portfolioData = [
   },
 
   {
-    id: 3,
     title: "Smart Dhopa",
     image: PortfolioThree,
     description:
@@ -41,7 +56,6 @@ const portfolioData = [
     websiteLink: "https://smart-dhopa-online-laundry-app.web.app/",
   },
   {
-    id: 4,
     title: "Doctor's Portal",
     image: PortfolioFour,
     description:
@@ -58,7 +72,6 @@ const portfolioData = [
     websiteLink: "https://online-doctors-portal.web.app/",
   },
   {
-    id: 10,
     title: "Cuckoo",
     image: PortfolioTen,
     description:
@@ -75,7 +88,6 @@ const portfolioData = [
     websiteLink: "https://www.cuckoo.co/",
   },
   {
-    id: 11,
     title: "Skyfi",
     image: PortfolioEleven,
     description: "The World's Geospatial Hub ",

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./banner.css";
 import { NavLink } from "react-router-dom";
 import UserIcon from "../../../assets/images/user-icon.png";
-import ProfilImage from "../../../assets/images/profile-img.png";
+
 import scrollSection from "../../common/scrollSection/scrollSection";
 
 const Banner = () => {
@@ -61,7 +61,7 @@ const Banner = () => {
             </div>
           </div>
           <div className="banner-container-right d-none">
-            <img src={ProfilImage} alt="" />
+            <img src="" alt="" />
           </div>
         </div>
       </div>
