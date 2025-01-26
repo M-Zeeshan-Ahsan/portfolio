@@ -6,6 +6,7 @@ import "./contact.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useFormspark } from "@formspark/use-formspark";
+import emailjs from "emailjs-com";
 
 const ContactForm = () => {
   useEffect(() => {
@@ -56,28 +57,48 @@ const ContactForm = () => {
     return isValid;
   };
 
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   if (validateForm()) {
+  //     const apiUrl = "https://submit-form.com/Rsqe681Uw";
+  //     axios
+  //       .post(apiUrl, formData)
+  //       .then((response) => {
+  //         toast.success("Request submitted successfully!");
+  //         setTimeout(() => {
+  //           setFormData({
+  //             name: "",
+  //             email: "",
+  //             message: "",
+  //           });
+  //         }, 2000);
+  //       })
+  //       .catch((error) => {
+  //         toast.error("Error submitting form. Please try again later.");
+  //       });
+  //   }
+  // };
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateForm()) {
-      const apiUrl = "https://submit-form.com/Rsqe681Uw";
-      axios
-        .post(apiUrl, formData)
-        .then((response) => {
-          toast.success("Request submitted successfully!");
-          setTimeout(() => {
-            setFormData({
-              name: "",
-              email: "",
-              message: "",
-            });
-          }, 2000);
-        })
-        .catch((error) => {
-          toast.error("Error submitting form. Please try again later.");
-        });
+      emailjs
+        .send(
+          process.env.REACT_APP_EMAILJS_SERVICE_ID,
+          process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+          formData,
+          process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+        )
+        .then(
+          (result) => {
+            toast.success("Request submitted successfully!");
+            setFormData({ name: "", email: "", message: "" });
+          },
+          (error) => {
+            console.error("Failed to send message:", error);
+          }
+        );
     }
   };
-
   return (
     <div className="contact-form animated-element" data-aos="fade-down">
       <ToastContainer position="top-right" autoClose={700} theme="colored" />
