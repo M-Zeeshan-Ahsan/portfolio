@@ -4,6 +4,10 @@ const PortfolioFour = require("../../../assets/images/portfolio-4.png");
 const PortfolioTen = require("../../../assets/images/project10.png");
 const PortfolioEleven = require("../../../assets/images/project11.png");
 const SunChoiceProject = require("../../../assets/images/sunchoice-project.png");
+const ShippelloProject = require("../../../assets/images/shipello-project.png");
+const CleaqueProject = require("../../../assets/images/cleaques-project.png");
+const CasanaProject = require("../../../assets/images/casana-project.png");
+const LiveliProject = require("../../../assets/images/liveli-project.png");
 const portfolioData = [
   {
     title: "Sunchoice",
@@ -101,6 +105,54 @@ const portfolioData = [
     ],
     type: ["Landing Page", "Front End", "Others"],
     websiteLink: "https://www.skyfi.com/",
+  },
+  {
+    title: "Shippello",
+    image: ShippelloProject,
+    description:
+      "Shippelo is a responsive shipment tracking app with real-time updates, intuitive design, seamless functionality, and modern UI/UX features.",
+    tags: [
+      "React",
+      "Context API",
+      "Tailwind",
+      "Firebase",
+      "NodeJS",
+      "SSLCOMMERZ",
+    ],
+    type: ["Landing Page", "Front End", "Others"],
+    websiteLink: "https://shippelloinvoices.com/",
+  },
+  {
+    title: "Cleaques",
+    image: CleaqueProject,
+    description:
+      "Cleaques is a lifestyle platform designed to connect African and Caribbean diasporas, enabling secure product exchanges, services, and community building.",
+    tags: [
+      "React",
+      "Context API",
+      "Tailwind",
+      "Firebase",
+      "NodeJS",
+      "SSLCOMMERZ",
+    ],
+    type: ["Landing Page", "Front End", "Others"],
+    websiteLink: "https://www.cleaques.com/",
+  },
+  {
+    title: "Liveli",
+    image: LiveliProject,
+    description:
+      "Liveli is a social networking hub for sharing lifestyles, earning money, streaming live events, and connecting with loved ones.",
+    tags: [
+      "React",
+      "Context API",
+      "Tailwind",
+      "Firebase",
+      "NodeJS",
+      "SSLCOMMERZ",
+    ],
+    type: ["Landing Page", "Front End", "Others"],
+    websiteLink: "https://liveli.app/",
   },
 ];
 
