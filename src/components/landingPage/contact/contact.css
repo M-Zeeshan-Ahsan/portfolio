@@ -96,6 +96,26 @@
 .form-field button:hover {
   background-color: #ff4a57;
 }
+.tooltip-wrapper {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+.send-tooltip {
+  position: absolute;
+  top: -42px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: green;
+  color: white;
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+  z-index: 2;
+}
 .contact-footer {
   max-width: 600px;
   margin: 0 auto;

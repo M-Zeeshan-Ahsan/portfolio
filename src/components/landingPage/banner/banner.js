@@ -9,7 +9,7 @@ const Banner = () => {
   const [wordIndex, setWordIndex] = useState(0);
   const [fade, setFade] = useState(false);
   const words = [
-    "passionate software engineer",
+    "passionate",
     "fast-learner",
     "self-taught",
     "experienced",

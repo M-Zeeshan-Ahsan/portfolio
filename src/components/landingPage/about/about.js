@@ -10,15 +10,15 @@ const About = () => {
       once: false,
     });
   }, []);
+
   return (
     <div className="container-fluid about-section" id="about">
-      <div className="container about-container ">
+      <div className="container about-container">
         <div className="common-heading">
           <h1>About Me</h1>
           <p>
-            On a mission to be the world's No. 1 full-stack developer, I’m
-            mastering React.js and front-end development to become the ultimate
-            Web Development Hero!
+            A passionate Front-End Developer on a mission to craft seamless,
+            high-performance web experiences — one component at a time.
           </p>
         </div>
         <div
@@ -31,46 +31,65 @@ const About = () => {
           </div>
           <div className="about-container-right">
             <h1>
-              Hi There<span>✌</span>
+              Hi There <span>✌</span>
             </h1>
             <p>
-              I am a senior front-end developer with over 3 years of extensive
-              experience in building high-performance web applications using
-              modern technologies. My expertise lies in creating dynamic and
-              responsive user interfaces, ensuring seamless user experiences,
-              and delivering scalable, maintainable solutions.
+              I am <strong>Muhammad Zeeshan Ahsan</strong>, a Front-End
+              Developer with <strong>4+ years of experience</strong> building
+              scalable, high-performance web applications using React.js and
+              Next.js. I specialize in creating responsive, user-focused
+              interfaces and delivering production-ready solutions in fast-paced
+              environments.
             </p>
             <p>
-              As a Front-End Developer specializing in React.js, I excel in
-              leveraging tools like Redux Toolkit, TypeScript, Vite, SCSS. My
-              projects range from small-scale web apps to complex
-              enterprise-level solutions, showcasing my adaptability and
-              attention to detail.
+              I have led development of scalable web applications, improved
+              performance by 25–30% through memoization and code-splitting, and
+              mentored a team of 4+ developers. I take pride in building
+              reusable component libraries that accelerate delivery and maintain
+              long-term codebase health.
             </p>
             <p>
-              Technical Specifications:
+              <strong>Technical Specifications:</strong>
               <br />
-              <strong>Front-End Technologies:</strong> React.js, Next.js, Redux
-              Toolkit, TypeScript, Vite, SCSS
+              <strong>Front-End Technologies:</strong> React.js, Next.js,
+              TypeScript, JavaScript (ES6+)
               <br />
-              <strong>UI/UX Development:</strong> Focused on creating intuitive
-              and visually appealing user interfaces with robust accessibility
-              and performance.
+              <strong>State Management:</strong> Redux Toolkit, Context API
               <br />
-              <strong>State Management:</strong> Advanced knowledge of Redux
-              Toolkit, Context API, and React Query for efficient state
-              handling.
-            </p>
-
-            <p>
-              I pride myself on bridging the gap between technical and business
-              needs by collaborating effectively with developers, designers,
-              stakeholders, and product managers to ensure alignment and project
-              success.
+              <strong>Styling:</strong> Tailwind CSS, Material UI, SCSS
+              <br />
+              <strong>Integration:</strong> REST APIs, Axios
+              <br />
+              <strong>Tools &amp; Concepts:</strong> Git, GitHub, Performance
+              Optimization, Component-Based Architecture, Responsive Design
             </p>
             <p>
-              Please contact me at any time when it is convenient for you to
-              discuss further.
+              Some of my notable projects include a{" "}
+              <strong>3D Shoe Customization App</strong> built with Three.js and
+              Next.js, <strong>Aurora</strong> — a clinical research negotiation
+              SaaS platform, and a{" "}
+              <strong>Hotel &amp; Staff Management System</strong> inspired by
+              Connecteam. Each project reflects my focus on clean architecture,
+              scalable state management, and exceptional user experience.
+            </p>
+            <p>
+              I hold a <strong>BS in Software Engineering</strong> from The
+              University of Lahore (2016–2020) and have previously worked at IT
+              HUTS and Kings Digital Solution, where I sharpened my skills in
+              responsive UI development and cross-team collaboration.
+            </p>
+            <p>
+              Feel free to reach out at{" "}
+              <a href="mailto:ahsansahi6@gmail.com">ahsansahi6@gmail.com</a> or
+              explore my work at{" "}
+              <a
+                href="https://zeeshanahsan.netlify.app"
+                target="_blank"
+                rel="noreferrer"
+              >
+                zeeshanahsan.netlify.app
+              </a>
+              . I'm always open to exciting opportunities and collaborations.
             </p>
           </div>
         </div>

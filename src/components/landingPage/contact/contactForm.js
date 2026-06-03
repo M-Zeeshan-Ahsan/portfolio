@@ -1,11 +1,7 @@
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import axios from "axios";
 import "./contact.css";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import { useFormspark } from "@formspark/use-formspark";
 import emailjs from "emailjs-com";
 
 const ContactForm = () => {
@@ -23,6 +19,7 @@ const ContactForm = () => {
   });
 
   const [errors, setErrors] = useState({});
+  const [tooltipVisible, setTooltipVisible] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -86,22 +83,22 @@ const ContactForm = () => {
           process.env.REACT_APP_EMAILJS_SERVICE_ID,
           process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
           formData,
-          process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+          process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
         )
         .then(
           (result) => {
-            toast.success("Request submitted successfully!");
+            setTooltipVisible(true);
             setFormData({ name: "", email: "", message: "" });
+            setTimeout(() => setTooltipVisible(false), 3000);
           },
           (error) => {
             console.error("Failed to send message:", error);
-          }
+          },
         );
     }
   };
   return (
     <div className="contact-form animated-element" data-aos="fade-down">
-      <ToastContainer position="top-right" autoClose={700} theme="colored" />
       <h1>Have You Something to Say ?</h1>
       <p>Feel free to message me. I am here to help!</p>
       <form onSubmit={handleSubmit}>
@@ -140,7 +137,12 @@ const ContactForm = () => {
           )}
         </div>
         <div className="mb-3 form-field">
-          <button type="submit">Send</button>
+          <div className="tooltip-wrapper">
+            {tooltipVisible && (
+              <span className="send-tooltip">Message sent!</span>
+            )}
+            <button type="submit">Send</button>
+          </div>
         </div>
       </form>
     </div>
