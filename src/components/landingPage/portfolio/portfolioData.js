@@ -8,8 +8,13 @@ const ShippelloProject = require("../../../assets/images/shipello-project.png");
 const CleaqueProject = require("../../../assets/images/cleaques-project.png");
 const CasanaProject = require("../../../assets/images/casana-project.png");
 const LiveliProject = require("../../../assets/images/liveli-project.png");
-const portfolioData = [
-  {
+const TangiblProject = require("../../../assets/images/tangibl-project.png");
+const DunbarProject = require("../../../assets/images/dunbar-project.png");
+const AuroraProject = require("../../../assets/images/aurora-project.png");
+
+const portfolioData = {
+  10: {
+    id: 10,
     title: "Sunchoice",
     image: SunChoiceProject,
     description:
@@ -25,7 +30,8 @@ const portfolioData = [
     type: ["Full Stack", "Front End", "Others"],
     websiteLink: "https://sunchoice.us/",
   },
-  {
+  11: {
+    id: 11,
     title: "Lineicons",
     image: PortfolioOne,
     description:
@@ -41,8 +47,8 @@ const portfolioData = [
     type: ["Full Stack", "Front End", "Others"],
     websiteLink: "https://lineicons.com/",
   },
-
-  {
+  13: {
+    id: 13,
     title: "Smart Dhopa",
     image: PortfolioThree,
     description:
@@ -59,7 +65,8 @@ const portfolioData = [
     type: ["Full Stack", "Front End", "Others"],
     websiteLink: "https://smart-dhopa-online-laundry-app.web.app/",
   },
-  {
+  4: {
+    id: 4,
     title: "Doctor's Portal",
     image: PortfolioFour,
     description:
@@ -75,7 +82,8 @@ const portfolioData = [
     type: ["Full Stack", "Front End", "Others"],
     websiteLink: "https://online-doctors-portal.web.app/",
   },
-  {
+  5: {
+    id: 5,
     title: "Cuckoo",
     image: PortfolioTen,
     description:
@@ -91,7 +99,8 @@ const portfolioData = [
     type: ["Landing Page", "Front End", "Others"],
     websiteLink: "https://www.cuckoo.co/",
   },
-  {
+  6: {
+    id: 6,
     title: "Skyfi",
     image: PortfolioEleven,
     description: "The World's Geospatial Hub ",
@@ -106,7 +115,8 @@ const portfolioData = [
     type: ["Landing Page", "Front End", "Others"],
     websiteLink: "https://www.skyfi.com/",
   },
-  {
+  7: {
+    id: 7,
     title: "Shippello",
     image: ShippelloProject,
     description:
@@ -122,7 +132,8 @@ const portfolioData = [
     type: ["Landing Page", "Front End", "Others"],
     websiteLink: "https://shippelloinvoices.com/",
   },
-  {
+  8: {
+    id: 8,
     title: "Cleaques",
     image: CleaqueProject,
     description:
@@ -138,7 +149,8 @@ const portfolioData = [
     type: ["Landing Page", "Front End", "Others"],
     websiteLink: "https://www.cleaques.com/",
   },
-  {
+  9: {
+    id: 9,
     title: "Liveli",
     image: LiveliProject,
     description:
@@ -154,6 +166,57 @@ const portfolioData = [
     type: ["Landing Page", "Front End", "Others"],
     websiteLink: "https://liveli.app/",
   },
-];
+  3: {
+    id: 3,
+    title: "Tangible 3D Shoe Customization",
+    image: TangiblProject,
+    description:
+      "Built a 3D shoe customization application using Next.js and Three.js, enabling real-time interaction with colors, textures, and components. Optimized rendering performance with efficient state management, lazy loading, and responsive UI for smooth cross-device experience.",
+    tags: [
+      "React",
+      "Context API",
+      "Tailwind",
+      "Firebase",
+      "NodeJS",
+      "SSLCOMMERZ",
+    ],
+    type: ["Full Stack", "Front End", "Others"],
+    websiteLink: "https://tangibl.ai/",
+  },
+  1: {
+    id: 1,
+    title: "Dunbar",
+    image: DunbarProject,
+    description:
+      "Dunbar is a customer feedback and micro-survey platform that enables businesses to collect responses via QR codes and shareable links.It helps manage complaints, generate insights, and improve customer experience and Google Reviews.",
+    tags: [
+      "React",
+      "Context API",
+      "Tailwind",
+      "Firebase",
+      "NodeJS",
+      "SSLCOMMERZ",
+    ],
+    type: ["Full Stack", "Front End", "Others"],
+    websiteLink: "https://150dunbar.com/",
+  },
+  2: {
+    id: 2,
+    title: "Aurora – Clinical Research Platform",
+    image: AuroraProject,
+    description:
+      "Aurora is a comprehensive clinical research platform that streamlines data collection, analysis, and reporting for researchers and healthcare professionals.",
+    tags: [
+      "React",
+      "Context API",
+      "Tailwind",
+      "Firebase",
+      "NodeJS",
+      "SSLCOMMERZ",
+    ],
+    type: ["Full Stack", "Front End", "Others"],
+    websiteLink: "https://auroranegotiator.com ",
+  },
+};
 
 export default portfolioData;

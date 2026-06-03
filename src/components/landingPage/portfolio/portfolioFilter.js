@@ -4,11 +4,12 @@ import { NavLink } from "react-router-dom";
 import portfolioData from "./portfolioData";
 const Portfolio = () => {
   const [filterType, setFilterType] = useState("All");
+  const portfolioArray = Object.values(portfolioData);
 
   const filteredPortfolio =
     filterType === "All"
-      ? portfolioData
-      : portfolioData.filter((item) => item.type.includes(filterType));
+      ? portfolioArray
+      : portfolioArray.filter((item) => item.type.includes(filterType));
   return (
     <div className="container-fluid portfolio-section">
       <div className="container portfolio-container">
@@ -21,7 +22,7 @@ const Portfolio = () => {
               className={filterType === "All" ? "active" : ""}
               onClick={() => setFilterType("All")}
             >
-              All <span>{portfolioData.length}</span>
+              All <span>{portfolioArray.length}</span>
             </button>
             <button
               className={filterType === "Full Stack" ? "active" : ""}
