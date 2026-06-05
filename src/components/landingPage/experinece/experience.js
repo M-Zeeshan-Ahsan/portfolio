@@ -23,7 +23,7 @@ const Experience = () => {
           <div className="experince-card">
             <div className="experience-container-left">
               <div className="experience-year">
-                <h1>Apr 2023 - Present</h1>
+                <h1>Apr 2022 - May 2026</h1>
                 <div className="experience-colon"></div>
               </div>
             </div>
