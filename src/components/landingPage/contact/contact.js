@@ -39,7 +39,7 @@ const Contact = () => {
                   <img src={MailIcon} alt="icon" />
                 </div>
                 <h1>EMAIL</h1>
-                <p>ahsansahi6@gmail.com</p>
+                <p>zeeshanahsan8181@gmail.com</p>
               </div>
             </div>
 
@@ -68,7 +68,7 @@ const Contact = () => {
             </a>
 
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=ahsansahi6@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=zeeshanahsan8181@gmail.com"
               target="_blank"
             >
               <img src={GmailIcon} alt="icon" />
@@ -76,7 +76,13 @@ const Contact = () => {
           </div>
           <div className="copyright">
             <p>
-              © 2024 All Rights Reserve to <NavLink>Zeeshan Ahsan</NavLink>
+              © 2024 All Rights Reserve to{" "}
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=zeeshanahsan8181@gmail.com"
+                target="_blank"
+              >
+                Zeeshan Ahsan
+              </a>
             </p>
           </div>
         </div>

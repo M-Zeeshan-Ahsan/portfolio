@@ -44,7 +44,7 @@ const SideLink = () => {
         </a>
 
         <a
-          href="https://mail.google.com/mail/?view=cm&fs=1&to=ahsansahi6@gmail.com"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=zeeshanahsan8181@gmail.com"
           target="_blank"
         >
           <svg
@@ -56,7 +56,7 @@ const SideLink = () => {
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 576 512"
-            mailto="prionto71@gmail.com"
+            mailto="zeeshanahsan8181@gmail.com"
           >
             <path
               fill="currentColor"

@@ -80,8 +80,10 @@ const About = () => {
             </p>
             <p>
               Feel free to reach out at{" "}
-              <a href="mailto:ahsansahi6@gmail.com">ahsansahi6@gmail.com</a> or
-              explore my work at{" "}
+              <a href="mailto:zeeshanahsan8181@gmail.com">
+                zeeshanahsan8181@gmail.com
+              </a>{" "}
+              or explore my work at{" "}
               <a
                 href="https://zeeshanahsan.netlify.app"
                 target="_blank"
