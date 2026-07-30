@@ -33,57 +33,61 @@ const About = () => {
             <h1>
               Hi There <span>✌</span>
             </h1>
+
             <p>
-              I am <strong>Muhammad Zeeshan Ahsan</strong>, a Front-End
-              Developer with <strong>4+ years of experience</strong> building
-              scalable, high-performance web applications using React.js and
-              Next.js. I specialize in creating responsive, user-focused
-              interfaces and delivering production-ready solutions in fast-paced
-              environments.
+              I am <strong>Muhammad Zeeshan Ahsan</strong>, a{" "}
+              <strong>Full Stack MERN Developer</strong> with{" "}
+              <strong>4+ years of experience</strong> building scalable,
+              high-performance web applications. I specialize in developing
+              pixel-perfect, responsive user interfaces from Figma designs and
+              building secure, scalable backend solutions using the MERN stack.
             </p>
+
             <p>
-              I have led development of scalable web applications, improved
-              performance by 25–30% through memoization and code-splitting, and
-              mentored a team of 4+ developers. I take pride in building
-              reusable component libraries that accelerate delivery and maintain
-              long-term codebase health.
+              I have successfully delivered SaaS platforms, business management
+              systems, AI-powered applications, and interactive 3D web
+              experiences. I enjoy turning complex ideas into modern,
+              user-friendly applications while focusing on clean architecture,
+              performance optimization, and maintainable code.
             </p>
+
             <p>
-              <strong>Technical Specifications:</strong>
+              <strong>Frontend:</strong> React.js, Next.js, TypeScript,
+              JavaScript, Three.js, React Three Fiber, Tailwind CSS, Material
+              UI, SCSS
               <br />
-              <strong>Front-End Technologies:</strong> React.js, Next.js,
-              TypeScript, JavaScript (ES6+)
+              <strong>Backend:</strong> Node.js, Express.js, MongoDB, Mongoose
               <br />
               <strong>State Management:</strong> Redux Toolkit, Context API
               <br />
-              <strong>Styling:</strong> Tailwind CSS, Material UI, SCSS
+              <strong>API & Tools:</strong> REST APIs, Axios, Git, GitHub,
+              Postman
               <br />
-              <strong>Integration:</strong> REST APIs, Axios
-              <br />
-              <strong>Tools &amp; Concepts:</strong> Git, GitHub, Performance
-              Optimization, Component-Based Architecture, Responsive Design
+              <strong>Deployment:</strong> Vercel, Netlify
             </p>
+
             <p>
-              Some of my notable projects include a{" "}
-              <strong>3D Shoe Customization App</strong> built with Three.js and
-              Next.js, <strong>Aurora</strong> — a clinical research negotiation
-              SaaS platform, and a{" "}
-              <strong>Hotel &amp; Staff Management System</strong> inspired by
-              Connecteam. Each project reflects my focus on clean architecture,
-              scalable state management, and exceptional user experience.
+              My recent work includes an{" "}
+              <strong>AI-Powered Business Platform</strong>, an{" "}
+              <strong>Interactive 3D Shoe Customization Platform</strong>, a{" "}
+              <strong>Doctor Appointment Management System</strong>, and a{" "}
+              <strong>MERN Task Management Application</strong>. I have worked
+              closely with designers and backend teams, leading frontend
+              development and delivering production-ready solutions.
             </p>
+
             <p>
               I hold a <strong>BS in Software Engineering</strong> from The
-              University of Lahore (2016–2020) and have previously worked at IT
-              HUTS and Kings Digital Solution, where I sharpened my skills in
-              responsive UI development and cross-team collaboration.
+              University of Lahore and continuously explore modern technologies
+              to build faster, scalable, and user-focused web applications.
             </p>
+
             <p>
               Feel free to reach out at{" "}
               <a href="mailto:zeeshanahsan8181@gmail.com">
                 zeeshanahsan8181@gmail.com
               </a>{" "}
-              or explore my work at{" "}
+              or explore my portfolio at{" "}
               <a
                 href="https://zeeshanahsan.netlify.app"
                 target="_blank"
@@ -91,7 +95,7 @@ const About = () => {
               >
                 zeeshanahsan.netlify.app
               </a>
-              . I'm always open to exciting opportunities and collaborations.
+              .
             </p>
           </div>
         </div>

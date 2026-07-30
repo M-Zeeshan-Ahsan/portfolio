@@ -28,31 +28,34 @@ const Experience = () => {
               </div>
             </div>
             <div className="experience-container-right">
-              <h1>Senior Front-End Developer | Reactjs</h1>
+              <h1>Front-End & MERN Stack Developer</h1>
               <p>Kodex Technologies</p>
               <ul>
                 <li>
-                  Led the development of responsive, user-friendly web
-                  applications using React.js, TypeScript, Material UI, and
-                  Next.js.
+                  Developed pixel-perfect, responsive, and high-performance web
+                  applications using React.js, Next.js, TypeScript, Tailwind
+                  CSS, and Material UI.
                 </li>
                 <li>
-                  Implemented Redux Toolkit for efficient state management,
-                  resulting in highly maintainable and scalable applications.
+                  Built scalable backend services and REST APIs using Node.js,
+                  Express.js, MongoDB, and Mongoose for full-stack web
+                  applications.
                 </li>
                 <li>
-                  Delivered 30 web projects across industries such as
-                  healthcare, retail, e-commerce, real estate, and social media,
-                  with a focus on performance optimization.
+                  Integrated frontend applications with backend APIs,
+                  implemented authentication, state management, and optimized
+                  application performance.
                 </li>
                 <li>
-                  Integrated third-party APIs and implemented features like
-                  offline support, push notifications, and PWA capabilities.
+                  Delivered 30+ projects across healthcare, SaaS, e-commerce,
+                  real estate, and business management domains while
+                  collaborating closely with UI/UX designers and backend
+                  developers.
                 </li>
                 <li>
-                  Mentored a team of 20 front-end developers and designers,
-                  ensuring high-quality deliverables and adherence to project
-                  timelines.
+                  Mentored junior developers, performed code reviews, and
+                  maintained clean, reusable, and production-ready code
+                  following industry best practices.
                 </li>
               </ul>
             </div>
